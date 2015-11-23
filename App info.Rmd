@@ -1,0 +1,28 @@
+---
+title: "Data products project"
+author: "S.Somasekar"
+date: "November 22, 2015"
+output: word_document
+---
+
+This markdown file explains the project that I did for the development of data products class in Coursera.
+
+For this project I have developed an application using the Shiny package of "R". 
+
+The dataset used for our purpose is "ChickWeight" which is a dataset available in R. The dataset contains the body weights of the chicks that were measured at birth and every second day thereafter until day 20. They were also measured on day 21. There were four groups on chicks on different protein diets.
+
+This dataset was originally part of package nlme, and that has methods (including for [, as.data.frame, plot and print) for its grouped-data classes.
+
+Source
+
+Crowder, M. and Hand, D. (1990), Analysis of Repeated Measures, Chapman and Hall (example 5.3)
+
+Hand, D. and Crowder, M. (1996), Practical Longitudinal Data Analysis, Chapman and Hall (table A.2)
+
+Pinheiro, J. C. and Bates, D. M. (2000) Mixed-effects Models in S and S-PLUS, Springer.
+
+The app shows a graph of the weights/age of chicks on different diets. It also shows the mean weight/age which is represented as absolute line as well as text for clarity. The app gives option to choose the variable that the user needs the information for (Weight/Age).
+
+The app can be accessed at
+ https://ssomasekar.shinyapps.io/dataProducts
+ 
